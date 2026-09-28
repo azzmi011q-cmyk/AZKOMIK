@@ -19,20 +19,20 @@ export default function SplashScreenComponent({ onFinish }) {
         Animated.timing(opacityAnim, {
           toValue: 1,
           duration: 600,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
         Animated.spring(scaleAnim, {
           toValue: 1,
           friction: 6,
           tension: 40,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
       ]),
       // 2. Fade in Brand Text
       Animated.timing(textOpacityAnim, {
         toValue: 1,
         duration: 400,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }),
       // 3. Pause briefly
       Animated.delay(500),
@@ -41,7 +41,7 @@ export default function SplashScreenComponent({ onFinish }) {
         toValue: 0,
         duration: 400,
         easing: Easing.out(Easing.ease),
-        useNativeDriver: true,
+        useNativeDriver: false,
       }),
     ]).start(() => {
       if (onFinish) {
