@@ -14,12 +14,12 @@ export default function Skeleton({ width, height, borderRadius = 8, style }) {
         Animated.timing(opacity, {
           toValue: 0.7,
           duration: 800,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
         Animated.timing(opacity, {
           toValue: 0.3,
           duration: 800,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
       ])
     );
