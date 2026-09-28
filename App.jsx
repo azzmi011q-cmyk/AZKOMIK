@@ -24,7 +24,7 @@ export default function App() {
   const [splashDone, setSplashDone] = useState(false);
   const current = stack[stack.length - 1];
   const tab = TABS.find(([name]) => name === current.name);
-  const Screen = tab?.[1] || ({ navigation, route }) => <View />;
+  const Screen = tab?.[1] || (({ navigation, route }) => <View />);
 
   useEffect(() => {
     document.title = current.name === 'Home' ? 'AZKOM' : `${current.name} - AZKOM`;
