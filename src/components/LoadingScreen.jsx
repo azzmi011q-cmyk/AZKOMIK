@@ -14,7 +14,7 @@ export default function LoadingScreen({ message = 'Memuat AZKOM...' }) {
         toValue: 1,
         duration: 1200,
         easing: Easing.linear,
-        useNativeDriver: true,
+        useNativeDriver: false,
       })
     );
 
@@ -24,12 +24,12 @@ export default function LoadingScreen({ message = 'Memuat AZKOM...' }) {
         Animated.timing(pulseValue, {
           toValue: 1.1,
           duration: 600,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
         Animated.timing(pulseValue, {
           toValue: 0.8,
           duration: 600,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }),
       ])
     );
