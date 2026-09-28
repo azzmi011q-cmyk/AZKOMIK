@@ -7,13 +7,27 @@ import {
 } from 'lucide-react';
 
 const ionMap = {
-  'home-outline': Home, 'search-outline': Search, search: Search,
-  'time-outline': Clock3, 'person-outline': User, 'arrow-back': ArrowLeft,
-  'close-circle': XCircle, 'alert-circle-outline': AlertCircle,
-  'arrow-up': ArrowUp, 'arrow-down': ArrowDown, 'chevron-back': ChevronLeft,
-  'chevron-forward': ChevronRight, star: Star, flame: Flame, sparkles: Sparkles,
-  'trash-outline': Trash2, bookmark: Bookmark, 'bookmark-outline': BookmarkIcon,
-  'book-outline': BookOpen, send: Send, 'remove-circle': MinusCircle,
+  'home-outline': Home,
+  'search-outline': Search,
+  search: Search,
+  'time-outline': Clock3,
+  'person-outline': User,
+  'arrow-back': ArrowLeft,
+  'close-circle': XCircle,
+  'alert-circle-outline': AlertCircle,
+  'arrow-up': ArrowUp,
+  'arrow-down': ArrowDown,
+  'chevron-back': ChevronLeft,
+  'chevron-forward': ChevronRight,
+  star: Star,
+  flame: Flame,
+  sparkles: Sparkles,
+  'trash-outline': Trash2,
+  bookmark: Bookmark,
+  'bookmark-outline': BookmarkIcon,
+  'book-outline': BookOpen,
+  send: Send,
+  'remove-circle': MinusCircle,
   'options-outline': SlidersHorizontal
 };
 
